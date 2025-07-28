@@ -1,0 +1,97 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 200px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 75px;
+  }
+}
+body {
+  background-color: white;
+  font-family: Arial, serif;
+  color: #0b2863;
+  font-size: medium;
+  line-height: normal;
+  text-align: center;
+}
+
+h1, h2 {
+  color:#0b2863;
+  font-size: larger;
+  line-height: 110%;
+}
+
+a {
+  text-decoration: none;
+  color:#11398a;
+  /* display: block, auto; */
+
+}
+
+a:hover {
+  /* box-shadow: 1,1,#09202e; */
+  box-shadow: 1px 1px 2px #09202e;
+}
+
+.container {
+  width: 800px;   /* Définit la largeur */
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+p{
+  display: block;
+  margin-bottom: 20;
+}
+
+.button-white {
+  border-radius: 10%;
+  background-color: white;
+  display: block, auto;
+  margin-top:20;
+  padding: 10;
+}
+
+.card {
+  background-color:aliceblue;
+  border-radius: 10%;
+  margin-bottom:20px;
+  padding: 20 20 20 20;
+  box-shadow: 0px, 0px, 1.0 #09202e;
+}
+
+/* .fa-brands {
+  display: block;
+  /* width: 400; */
